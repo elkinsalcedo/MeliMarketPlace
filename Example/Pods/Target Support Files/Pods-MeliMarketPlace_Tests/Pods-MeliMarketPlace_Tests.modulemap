@@ -1,0 +1,6 @@
+framework module Pods_MeliMarketPlace_Tests {
+  umbrella header "Pods-MeliMarketPlace_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

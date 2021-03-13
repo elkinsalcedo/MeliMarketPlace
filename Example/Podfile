@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MeliMarketPlace_Example' do
+  pod 'MeliMarketPlace', :path => '../'
+
+  target 'MeliMarketPlace_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

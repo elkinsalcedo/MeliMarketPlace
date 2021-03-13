@@ -1,0 +1,16 @@
+PODS:
+  - MeliMarketPlace (0.1.0)
+
+DEPENDENCIES:
+  - MeliMarketPlace (from `../`)
+
+EXTERNAL SOURCES:
+  MeliMarketPlace:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MeliMarketPlace: 8083521bfb8ac465188fcd226f39de8f880cf5ed
+
+PODFILE CHECKSUM: 7f3c4353c659ca643427356f04c367e2cc89adb5
+
+COCOAPODS: 1.10.0.rc.1

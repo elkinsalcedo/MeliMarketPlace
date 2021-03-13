@@ -1,0 +1,900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		197B4E5E25FC65550056C653 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B4E5D25FC65550056C653 /* ProductItem.swift */; };
+		197B4E6425FC6E400056C653 /* EnumHttpStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B4E6325FC6E400056C653 /* EnumHttpStatusCode.swift */; };
+		197B4E6E25FC879F0056C653 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B4E6D25FC879F0056C653 /* Service.swift */; };
+		19E2E8BD25F71A4B00E90E57 /* ProductDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8A725F71A4B00E90E57 /* ProductDetailProtocol.swift */; };
+		19E2E8BF25F71A4B00E90E57 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8A925F71A4B00E90E57 /* ProductDetailViewController.swift */; };
+		19E2E8C025F71A4B00E90E57 /* ProductDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8AA25F71A4B00E90E57 /* ProductDetailPresenter.swift */; };
+		19E2E8C225F71A4B00E90E57 /* ProductListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8AE25F71A4B00E90E57 /* ProductListProtocol.swift */; };
+		19E2E8C525F71A4B00E90E57 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8B125F71A4B00E90E57 /* ProductListViewController.swift */; };
+		19E2E8C625F71A4B00E90E57 /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8B225F71A4B00E90E57 /* ProductListPresenter.swift */; };
+		19E2E8C725F71A4B00E90E57 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8B325F71A4B00E90E57 /* ProductListInteractor.swift */; };
+		19E2E8CA25F71A4B00E90E57 /* ProductHomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8B825F71A4B00E90E57 /* ProductHomeProtocol.swift */; };
+		19E2E8CB25F71A4B00E90E57 /* ProductHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8B925F71A4B00E90E57 /* ProductHomePresenter.swift */; };
+		19E2E8CC25F71A4B00E90E57 /* ProductHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8BA25F71A4B00E90E57 /* ProductHomeViewController.swift */; };
+		19E2E8CD25F71A4B00E90E57 /* ProductHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8BB25F71A4B00E90E57 /* ProductHomeInteractor.swift */; };
+		19E2E8E225F7234500E90E57 /* ProductDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8E125F7234500E90E57 /* ProductDetailRouter.swift */; };
+		19E2E8E825F7235500E90E57 /* ProductListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8E725F7235500E90E57 /* ProductListRouter.swift */; };
+		19E2E8F225F723A500E90E57 /* ProductHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8F125F723A500E90E57 /* ProductHomeRouter.swift */; };
+		19E2E90525F7249600E90E57 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E90425F7249600E90E57 /* AppConstant.swift */; };
+		19E2E90D25F724F100E90E57 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E90C25F724F100E90E57 /* Products.swift */; };
+		19E2E96325F9B60E00E90E57 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E96225F9B60E00E90E57 /* ApiService.swift */; };
+		19E2E96725F9B65300E90E57 /* ApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E96625F9B65300E90E57 /* ApiServiceProtocol.swift */; };
+		19E2E96D25F9BB1400E90E57 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E96C25F9BB1400E90E57 /* Picture.swift */; };
+		19E2E99D25F9DB0A00E90E57 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E99C25F9DB0A00E90E57 /* Product.swift */; };
+		19E2EC3F25FB290100E90E57 /* ProductListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2EC3E25FB290100E90E57 /* ProductListViewCell.swift */; };
+		19FD67F525FCA57C0086800F /* ProductDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD67F425FCA57C0086800F /* ProductDetailInteractor.swift */; };
+		19FD67FB25FCA7740086800F /* DataDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD67FA25FCA7740086800F /* DataDecodable.swift */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B5FF25085012DA2ED95187CE /* Pods_MeliMarketPlace_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08E6682C7283F257D2C585DD /* Pods_MeliMarketPlace_Example.framework */; };
+		D36A2F58D605F9AB58F142E6 /* Pods_MeliMarketPlace_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA22FED6957AC59F7E3A78A3 /* Pods_MeliMarketPlace_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = MeliMarketPlace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E6682C7283F257D2C585DD /* Pods_MeliMarketPlace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliMarketPlace_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		160BF857C3DE7767A3634E89 /* MeliMarketPlace.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MeliMarketPlace.podspec; path = ../MeliMarketPlace.podspec; sourceTree = "<group>"; };
+		197B4E5D25FC65550056C653 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		197B4E6325FC6E400056C653 /* EnumHttpStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumHttpStatusCode.swift; sourceTree = "<group>"; };
+		197B4E6D25FC879F0056C653 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		19E2E8A725F71A4B00E90E57 /* ProductDetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailProtocol.swift; sourceTree = "<group>"; };
+		19E2E8A925F71A4B00E90E57 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
+		19E2E8AA25F71A4B00E90E57 /* ProductDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailPresenter.swift; sourceTree = "<group>"; };
+		19E2E8AE25F71A4B00E90E57 /* ProductListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListProtocol.swift; sourceTree = "<group>"; };
+		19E2E8B125F71A4B00E90E57 /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		19E2E8B225F71A4B00E90E57 /* ProductListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		19E2E8B325F71A4B00E90E57 /* ProductListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
+		19E2E8B825F71A4B00E90E57 /* ProductHomeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductHomeProtocol.swift; sourceTree = "<group>"; };
+		19E2E8B925F71A4B00E90E57 /* ProductHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductHomePresenter.swift; sourceTree = "<group>"; };
+		19E2E8BA25F71A4B00E90E57 /* ProductHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductHomeViewController.swift; sourceTree = "<group>"; };
+		19E2E8BB25F71A4B00E90E57 /* ProductHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductHomeInteractor.swift; sourceTree = "<group>"; };
+		19E2E8E125F7234500E90E57 /* ProductDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailRouter.swift; sourceTree = "<group>"; };
+		19E2E8E725F7235500E90E57 /* ProductListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListRouter.swift; sourceTree = "<group>"; };
+		19E2E8F125F723A500E90E57 /* ProductHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHomeRouter.swift; sourceTree = "<group>"; };
+		19E2E90425F7249600E90E57 /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		19E2E90C25F724F100E90E57 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		19E2E96225F9B60E00E90E57 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		19E2E96625F9B65300E90E57 /* ApiServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceProtocol.swift; sourceTree = "<group>"; };
+		19E2E96C25F9BB1400E90E57 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		19E2E99C25F9DB0A00E90E57 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		19E2EC3E25FB290100E90E57 /* ProductListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewCell.swift; sourceTree = "<group>"; };
+		19FD67F425FCA57C0086800F /* ProductDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailInteractor.swift; sourceTree = "<group>"; };
+		19FD67FA25FCA7740086800F /* DataDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDecodable.swift; sourceTree = "<group>"; };
+		21B0C7DF6332B6CF5C8765C3 /* Pods-MeliMarketPlace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliMarketPlace_Example.debug.xcconfig"; path = "Target Support Files/Pods-MeliMarketPlace_Example/Pods-MeliMarketPlace_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3B7450432758AF6E6F14016D /* Pods-MeliMarketPlace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliMarketPlace_Example.release.xcconfig"; path = "Target Support Files/Pods-MeliMarketPlace_Example/Pods-MeliMarketPlace_Example.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* MeliMarketPlace_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeliMarketPlace_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* MeliMarketPlace_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeliMarketPlace_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		BBF0647710FF40E9EC84D871 /* Pods-MeliMarketPlace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliMarketPlace_Tests.release.xcconfig"; path = "Target Support Files/Pods-MeliMarketPlace_Tests/Pods-MeliMarketPlace_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D52FFCCF94CADCEFCA2CA5C6 /* Pods-MeliMarketPlace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliMarketPlace_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MeliMarketPlace_Tests/Pods-MeliMarketPlace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA22FED6957AC59F7E3A78A3 /* Pods_MeliMarketPlace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliMarketPlace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E08D1B291D90C579028597BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EB2A8F5B5D29F8E20FDC00FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FF25085012DA2ED95187CE /* Pods_MeliMarketPlace_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE21AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36A2F58D605F9AB58F142E6 /* Pods_MeliMarketPlace_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		197B4E3C25FC56BC0056C653 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E96625F9B65300E90E57 /* ApiServiceProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		19E2E8A325F71A4B00E90E57 /* MeliMarketPlaceApp */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E96025F9B1D200E90E57 /* Model */,
+				19E2E95F25F9B11B00E90E57 /* Modules */,
+				19E2E90325F7248200E90E57 /* Common */,
+			);
+			path = MeliMarketPlaceApp;
+			sourceTree = "<group>";
+		};
+		19E2E8A425F71A4B00E90E57 /* ProductDetail */ = {
+			isa = PBXGroup;
+			children = (
+				19FD67F325FCA57C0086800F /* Interactor */,
+				19E2E8E025F7233300E90E57 /* Router */,
+				19E2E8D325F7227000E90E57 /* Presenter */,
+				19E2E8D225F7223100E90E57 /* View */,
+				19E2E8A525F71A4B00E90E57 /* Protocols */,
+			);
+			path = ProductDetail;
+			sourceTree = "<group>";
+		};
+		19E2E8A525F71A4B00E90E57 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8A725F71A4B00E90E57 /* ProductDetailProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		19E2E8AC25F71A4B00E90E57 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8DF25F7232400E90E57 /* Router */,
+				19E2E8DA25F722CB00E90E57 /* View */,
+				19E2E8D925F722BC00E90E57 /* Presenter */,
+				19E2E8D825F722B200E90E57 /* Interactor */,
+				19E2E8AD25F71A4B00E90E57 /* Protocols */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		19E2E8AD25F71A4B00E90E57 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8AE25F71A4B00E90E57 /* ProductListProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		19E2E8B425F71A4B00E90E57 /* ProductHome */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8F025F7239700E90E57 /* Router */,
+				19E2E8EF25F7238900E90E57 /* View */,
+				19E2E8EE25F7237800E90E57 /* Interactor */,
+				19E2E8ED25F7237200E90E57 /* Presenter */,
+				19E2E8B525F71A4B00E90E57 /* Protocols */,
+			);
+			path = ProductHome;
+			sourceTree = "<group>";
+		};
+		19E2E8B525F71A4B00E90E57 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8B825F71A4B00E90E57 /* ProductHomeProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		19E2E8D225F7223100E90E57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8A925F71A4B00E90E57 /* ProductDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19E2E8D325F7227000E90E57 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8AA25F71A4B00E90E57 /* ProductDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		19E2E8D825F722B200E90E57 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8B325F71A4B00E90E57 /* ProductListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		19E2E8D925F722BC00E90E57 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8B225F71A4B00E90E57 /* ProductListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		19E2E8DA25F722CB00E90E57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8B125F71A4B00E90E57 /* ProductListViewController.swift */,
+				19E2EC3E25FB290100E90E57 /* ProductListViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19E2E8DF25F7232400E90E57 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8E725F7235500E90E57 /* ProductListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		19E2E8E025F7233300E90E57 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8E125F7234500E90E57 /* ProductDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		19E2E8ED25F7237200E90E57 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8B925F71A4B00E90E57 /* ProductHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		19E2E8EE25F7237800E90E57 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8BB25F71A4B00E90E57 /* ProductHomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		19E2E8EF25F7238900E90E57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8BA25F71A4B00E90E57 /* ProductHomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19E2E8F025F7239700E90E57 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8F125F723A500E90E57 /* ProductHomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		19E2E90325F7248200E90E57 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E90425F7249600E90E57 /* AppConstant.swift */,
+				197B4E6325FC6E400056C653 /* EnumHttpStatusCode.swift */,
+				19FD67FA25FCA7740086800F /* DataDecodable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		19E2E90B25F724D300E90E57 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E90C25F724F100E90E57 /* Products.swift */,
+				19E2E96C25F9BB1400E90E57 /* Picture.swift */,
+				19E2E99C25F9DB0A00E90E57 /* Product.swift */,
+				197B4E5D25FC65550056C653 /* ProductItem.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		19E2E95F25F9B11B00E90E57 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8A425F71A4B00E90E57 /* ProductDetail */,
+				19E2E8AC25F71A4B00E90E57 /* ProductList */,
+				19E2E8B425F71A4B00E90E57 /* ProductHome */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		19E2E96025F9B1D200E90E57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E96125F9B1DE00E90E57 /* Service */,
+				19E2E90B25F724D300E90E57 /* Entities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19E2E96125F9B1DE00E90E57 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				197B4E3C25FC56BC0056C653 /* Protocol */,
+				19E2E96225F9B60E00E90E57 /* ApiService.swift */,
+				197B4E6D25FC879F0056C653 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		19FD67F325FCA57C0086800F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				19FD67F425FCA57C0086800F /* ProductDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for MeliMarketPlace */,
+				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD11AFB9204008FA782 /* Products */,
+				AC4628122022BF02B141B5F8 /* Pods */,
+				8AB8766F32DCECAFA7F993F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* MeliMarketPlace_Example.app */,
+				607FACE51AFB9204008FA782 /* MeliMarketPlace_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for MeliMarketPlace */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E8A325F71A4B00E90E57 /* MeliMarketPlaceApp */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for MeliMarketPlace";
+			path = MeliMarketPlace;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACE81AFB9204008FA782 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACE91AFB9204008FA782 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEA1AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				160BF857C3DE7767A3634E89 /* MeliMarketPlace.podspec */,
+				E08D1B291D90C579028597BB /* README.md */,
+				EB2A8F5B5D29F8E20FDC00FE /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8AB8766F32DCECAFA7F993F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08E6682C7283F257D2C585DD /* Pods_MeliMarketPlace_Example.framework */,
+				DA22FED6957AC59F7E3A78A3 /* Pods_MeliMarketPlace_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4628122022BF02B141B5F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21B0C7DF6332B6CF5C8765C3 /* Pods-MeliMarketPlace_Example.debug.xcconfig */,
+				3B7450432758AF6E6F14016D /* Pods-MeliMarketPlace_Example.release.xcconfig */,
+				D52FFCCF94CADCEFCA2CA5C6 /* Pods-MeliMarketPlace_Tests.debug.xcconfig */,
+				BBF0647710FF40E9EC84D871 /* Pods-MeliMarketPlace_Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* MeliMarketPlace_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MeliMarketPlace_Example" */;
+			buildPhases = (
+				D806DED3BA67A5D6F1F0E5DB /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				8438A5F5ED1A78A15B6F5719 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeliMarketPlace_Example;
+			productName = MeliMarketPlace;
+			productReference = 607FACD01AFB9204008FA782 /* MeliMarketPlace_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607FACE41AFB9204008FA782 /* MeliMarketPlace_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MeliMarketPlace_Tests" */;
+			buildPhases = (
+				06F4B686CD2A750846BA6EE7 /* [CP] Check Pods Manifest.lock */,
+				607FACE11AFB9204008FA782 /* Sources */,
+				607FACE21AFB9204008FA782 /* Frameworks */,
+				607FACE31AFB9204008FA782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+			);
+			name = MeliMarketPlace_Tests;
+			productName = Tests;
+			productReference = 607FACE51AFB9204008FA782 /* MeliMarketPlace_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MBXZA6Z65J;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MBXZA6Z65J;
+						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MeliMarketPlace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* MeliMarketPlace_Example */,
+				607FACE41AFB9204008FA782 /* MeliMarketPlace_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F4B686CD2A750846BA6EE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeliMarketPlace_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8438A5F5ED1A78A15B6F5719 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeliMarketPlace_Example/Pods-MeliMarketPlace_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MeliMarketPlace/MeliMarketPlace.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MeliMarketPlace.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeliMarketPlace_Example/Pods-MeliMarketPlace_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D806DED3BA67A5D6F1F0E5DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeliMarketPlace_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E2E8CA25F71A4B00E90E57 /* ProductHomeProtocol.swift in Sources */,
+				197B4E6E25FC879F0056C653 /* Service.swift in Sources */,
+				197B4E5E25FC65550056C653 /* ProductItem.swift in Sources */,
+				19E2E8F225F723A500E90E57 /* ProductHomeRouter.swift in Sources */,
+				19E2E8CB25F71A4B00E90E57 /* ProductHomePresenter.swift in Sources */,
+				19E2E8E825F7235500E90E57 /* ProductListRouter.swift in Sources */,
+				19E2E96325F9B60E00E90E57 /* ApiService.swift in Sources */,
+				197B4E6425FC6E400056C653 /* EnumHttpStatusCode.swift in Sources */,
+				19E2E99D25F9DB0A00E90E57 /* Product.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				19E2E96725F9B65300E90E57 /* ApiServiceProtocol.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				19E2E8C225F71A4B00E90E57 /* ProductListProtocol.swift in Sources */,
+				19E2E96D25F9BB1400E90E57 /* Picture.swift in Sources */,
+				19E2E90525F7249600E90E57 /* AppConstant.swift in Sources */,
+				19E2E8BD25F71A4B00E90E57 /* ProductDetailProtocol.swift in Sources */,
+				19E2E8C725F71A4B00E90E57 /* ProductListInteractor.swift in Sources */,
+				19E2E8CD25F71A4B00E90E57 /* ProductHomeInteractor.swift in Sources */,
+				19E2E8C025F71A4B00E90E57 /* ProductDetailPresenter.swift in Sources */,
+				19E2E8E225F7234500E90E57 /* ProductDetailRouter.swift in Sources */,
+				19E2E8C625F71A4B00E90E57 /* ProductListPresenter.swift in Sources */,
+				19E2E8CC25F71A4B00E90E57 /* ProductHomeViewController.swift in Sources */,
+				19E2EC3F25FB290100E90E57 /* ProductListViewCell.swift in Sources */,
+				19FD67F525FCA57C0086800F /* ProductDetailInteractor.swift in Sources */,
+				19E2E8BF25F71A4B00E90E57 /* ProductDetailViewController.swift in Sources */,
+				19E2E90D25F724F100E90E57 /* Products.swift in Sources */,
+				19E2E8C525F71A4B00E90E57 /* ProductListViewController.swift in Sources */,
+				19FD67FB25FCA7740086800F /* DataDecodable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE11AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* MeliMarketPlace_Example */;
+			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDA1AFB9204008FA782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B0C7DF6332B6CF5C8765C3 /* Pods-MeliMarketPlace_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBXZA6Z65J;
+				INFOPLIST_FILE = MeliMarketPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.monitoring-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7450432758AF6E6F14016D /* Pods-MeliMarketPlace_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBXZA6Z65J;
+				INFOPLIST_FILE = MeliMarketPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.monitoring-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		607FACF31AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52FFCCF94CADCEFCA2CA5C6 /* Pods-MeliMarketPlace_Tests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MBXZA6Z65J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeliMarketPlace_Example.app/MeliMarketPlace_Example";
+			};
+			name = Debug;
+		};
+		607FACF41AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBF0647710FF40E9EC84D871 /* Pods-MeliMarketPlace_Tests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = MBXZA6Z65J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeliMarketPlace_Example.app/MeliMarketPlace_Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "MeliMarketPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MeliMarketPlace_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MeliMarketPlace_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF31AFB9204008FA782 /* Debug */,
+				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module MeliMarketPlace {
+  umbrella header "MeliMarketPlace-umbrella.h"
+
+  export *
+  module * { export * }
+}
