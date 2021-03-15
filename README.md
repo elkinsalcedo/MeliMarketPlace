@@ -1,7 +1,8 @@
 # MeliMarketPlace
 This a challenge for Meli using like platform iOS
 
-Utilizo arquitectura VIPER, para manejar unos de los principios solidos de Responsabilidad única y este patrón aplica Clean architecture
+Utilizo arquitectura VIPER, para manejar unos de los principios solidos de Responsabilidad única y este patrón aplica Clean architecture.
+
 Pasos para correr el proyecto:
 1. hacer un git clone y hacer checkout a la siguiente rama: feature/MELI-001
 2. Pod install: para instalar la dependencia de HUB, para los loading de la app
