@@ -44,7 +44,7 @@ class ProductListViewController: UIViewController, ProductListViewProtocol, UITa
         let cell = tableView.dequeueReusableCell(withIdentifier: "ProductViewCell", for: indexPath) as! ProductListViewCell
 
         cell.productTitle.text = productItem.title
-        cell.productPrice.text = String(productItem.price)
+        cell.productPrice.text = String(format: "$%.1f", productItem.price)
 
         presenter.getImage(from: productItem.thumbnail.replacingOccurrences(of: HTTP_PROTOCOL, with: HTTPS_PROTOCOL), onResponse: {
             (dataResponse) in

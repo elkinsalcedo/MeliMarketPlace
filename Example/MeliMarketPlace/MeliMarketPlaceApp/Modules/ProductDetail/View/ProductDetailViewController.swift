@@ -34,7 +34,7 @@ class ProductDetailViewController: UIViewController, ProductDetailViewProtocol {
 
     func setupView(){
         self.productTile.text = self.product.title
-        self.productPrice.text = String(self.product.price)
+        self.productPrice.text = String(format: "$%.1f", self.product.price)
 
         self.presenter.getImage(from: self.product.thumbnail.replacingOccurrences(of: HTTP_PROTOCOL, with: HTTPS_PROTOCOL), onResponse: {
             (dataResponse) in
