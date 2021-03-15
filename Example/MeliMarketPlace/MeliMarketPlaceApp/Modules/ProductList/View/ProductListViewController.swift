@@ -17,8 +17,6 @@ class ProductListViewController: UIViewController, ProductListViewProtocol, UITa
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //self.title = "Back"
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -29,7 +27,9 @@ class ProductListViewController: UIViewController, ProductListViewProtocol, UITa
         super.didReceiveMemoryWarning()
     }
 
-    func failedProduct(with message: String){
+    func failedProduct(with message: String) {
+        LoadingView.hide()
+        
         let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertController.Style.alert)
         alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
         self.present(alert, animated: true, completion: nil)
@@ -46,12 +46,14 @@ class ProductListViewController: UIViewController, ProductListViewProtocol, UITa
         cell.productTitle.text = productItem.title
         cell.productPrice.text = String(productItem.price)
 
-        presenter.getImage(from: self.productList!.results[indexPath.row].thumbnail.replacingOccurrences(of: "http:", with: "https:"), onResponse: {
+        presenter.getImage(from: productItem.thumbnail.replacingOccurrences(of: HTTP_PROTOCOL, with: HTTPS_PROTOCOL), onResponse: {
             (dataResponse) in
             DispatchQueue.main.async{
                 cell.thumbnail.image = UIImage(data: dataResponse!)
             }
         })
+
+        LoadingView.hide()
 
         return cell
     }
@@ -59,6 +61,7 @@ class ProductListViewController: UIViewController, ProductListViewProtocol, UITa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let productItemId = self.productList!.results[indexPath.row].id
 
+        LoadingView.show()
         presenter?.productSelected(itemId: productItemId)
     }
 }

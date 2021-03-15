@@ -29,7 +29,8 @@ protocol ProductListViewProtocol: class{
 
 protocol ProductListInteractorProtocol: class {
     var presenter: ProductListPresenterProtocol! {get set}
-    var apiService: ApiServiceProtocol! {get set}
+    var serviceApi: ServiceApiProtocol! {get set}
+    var serviceApiImage: ServiceApiProtocol! {get set}
 
     func getProductDetail(itemId: String)
     func getImage(from url: String, onResponse: @escaping(_ data: Data?) -> Void)

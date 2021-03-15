@@ -61,6 +61,16 @@
                ReferencedContainer = "container:MeliMarketPlace.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1932355D25FDD1A700A44096"
+               BuildableName = "MeliMarketPlace_ExampleTests.xctest"
+               BlueprintName = "MeliMarketPlace_ExampleTests"
+               ReferencedContainer = "container:MeliMarketPlace.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

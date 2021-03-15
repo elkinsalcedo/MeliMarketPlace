@@ -16,7 +16,7 @@ class ProductHomeRouter: ProductHomeRouterProtocol {
         let presenter = ProductHomePresenter()
         let router = ProductHomeRouter()
         let interactor = ProductHomeInteractor()
-        let apiService = ApiService()
+        let serviceApi = ServiceApiFactory().meliServiceApiSearchProducts
 
         view.presenter = presenter
         view.presenter?.router = router
@@ -24,7 +24,7 @@ class ProductHomeRouter: ProductHomeRouterProtocol {
         presenter.view = view
         presenter.interactor = interactor
         presenter.interactor?.presenter = presenter
-        presenter.interactor?.apiService = apiService
+        presenter.interactor?.serviceApi = serviceApi
 
         router.productHomeViewController = view
 

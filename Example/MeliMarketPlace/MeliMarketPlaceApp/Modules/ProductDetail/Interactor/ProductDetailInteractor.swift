@@ -10,10 +10,10 @@ import Foundation
 
 class ProductDetailInteractor: ProductDetailInteractorProtocol {
     weak var presenter: ProductDetailPresenterProtocol!
-    var apiService: ApiServiceProtocol!
+    var serviceApi: ServiceApiProtocol!
 
     func getImage(from url: String, onResponse: @escaping(_ data: Data?) -> Void) {
-        self.apiService.getService(with: url, header: APISERVICE_HEADER, onResponse: { (resultData: Data?) in
+        self.serviceApi?.getRequest(with: url, onResponse: { (resultData: Data?) in
             onResponse(resultData)
         })
     }

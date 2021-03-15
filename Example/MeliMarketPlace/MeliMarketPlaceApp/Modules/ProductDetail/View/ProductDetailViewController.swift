@@ -36,10 +36,11 @@ class ProductDetailViewController: UIViewController, ProductDetailViewProtocol {
         self.productTile.text = self.product.title
         self.productPrice.text = String(self.product.price)
 
-        self.presenter.getImage(from: self.product.thumbnail.replacingOccurrences(of: "http:", with: "https:"), onResponse: {
+        self.presenter.getImage(from: self.product.thumbnail.replacingOccurrences(of: HTTP_PROTOCOL, with: HTTPS_PROTOCOL), onResponse: {
             (dataResponse) in
             DispatchQueue.main.async() { [weak self] in
                 self?.productImage.image = UIImage(data: dataResponse!)
+                LoadingView.hide()
             }
         })
     }

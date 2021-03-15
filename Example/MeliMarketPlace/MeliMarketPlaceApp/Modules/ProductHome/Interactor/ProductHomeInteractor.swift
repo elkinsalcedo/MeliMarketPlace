@@ -10,10 +10,16 @@ import Foundation
 
 class ProductHomeInteractor: ProductHomeInteractorProtocol {
     weak var presenter: ProductHomePresenterProtocol!
-    var apiService: ApiServiceProtocol!
+    var serviceApi: ServiceApiProtocol!
     
     func searchProducts(query: String) {
-        self.apiService?.getData(query: query, onResponse: { (resultData: Data?) in
+        guard !query.isEmpty else {
+            self.presenter.productsNotFound(with: ERROR_SEARCH_EMPTY)
+          return
+        }
+
+        let filter = query.addingPercentEncoding(withAllowedCharacters: .urlUserAllowed)!
+        self.serviceApi?.getRequest(with: filter, onResponse: { (resultData: Data?) in
             DispatchQueue.main.async {
                 do {
                     let products = try JSONDecoder().decode(Products.self, from: resultData!)
@@ -22,6 +28,7 @@ class ProductHomeInteractor: ProductHomeInteractorProtocol {
                         self.presenter.productsNotFound(with: ERROR_PRODUCTS_NOT_FOUND)
 
                 } catch {
+                    MeliMarketPlaceLog.dLog(message: error.localizedDescription, function: "ProductHomeInteractor.searchProducts")
                     self.presenter.productsNotFound(with: ERROR_GENERAL_MESSAGE)
                 }
             }

@@ -17,7 +17,11 @@ class ProductHomeViewController: UIViewController, ProductHomeViewProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        ProductHomeRouter.createModule(view: self)
+        _ = ProductHomeRouter.createModule(view: self)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationItem.setHidesBackButton(true, animated: true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,12 +29,15 @@ class ProductHomeViewController: UIViewController, ProductHomeViewProtocol {
     }
 
     @IBAction func clickBtnSearchProducts(_ sender: Any) {
-       // navigationController?.pushViewController(ProductListViewController(), animated: true)
+        self.lblErrorMessage.isHidden = true
+        LoadingView.show()
         self.presenter?.searchProducts(query: txtSearchProducts.text!)
     }
 
     func showMessageOnScreen(msg: String) {
+        LoadingView.hide()
         self.lblErrorMessage.text = msg
+        self.lblErrorMessage.isHidden = false
     }
 
 }

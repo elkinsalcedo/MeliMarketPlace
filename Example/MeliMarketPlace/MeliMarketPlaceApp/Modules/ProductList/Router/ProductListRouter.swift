@@ -17,7 +17,7 @@ class ProductListRouter: ProductListRouterProtocol {
         let presenter = ProductListPresenter()
         let router = ProductListRouter()
         let interactor = ProductListInteractor()
-        let apiService = ApiService()
+        let serviceApi = ServiceApiFactory()
 
         view.presenter = presenter
         view.presenter?.productList = productList
@@ -25,8 +25,8 @@ class ProductListRouter: ProductListRouterProtocol {
         view.presenter?.view = view
         view.presenter?.interactor = interactor
         view.presenter?.interactor?.presenter = presenter
-        view.presenter?.interactor?.apiService = apiService
-
+        view.presenter?.interactor?.serviceApi = serviceApi.meliServiceApiSearchItemProducts
+        view.presenter?.interactor?.serviceApiImage = serviceApi.meliServiceApiGetImage
         router.productListViewController = view
         return view
     }

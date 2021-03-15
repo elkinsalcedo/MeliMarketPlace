@@ -30,7 +30,7 @@ protocol ProductDetailViewProtocol: class {
 
 protocol ProductDetailInteractorProtocol: class {
     var presenter: ProductDetailPresenterProtocol! {get set}
-    var apiService: ApiServiceProtocol! {get set}
+    var serviceApi: ServiceApiProtocol! {get set}
 
     func getImage(from url: String, onResponse: @escaping(_ data: Data?) -> Void)
 }

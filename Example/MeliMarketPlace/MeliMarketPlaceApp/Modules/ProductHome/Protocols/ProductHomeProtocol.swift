@@ -33,7 +33,7 @@ protocol ProductHomeRouterProtocol {
 
 protocol ProductHomeInteractorProtocol: class {
     var presenter: ProductHomePresenterProtocol! {get set}
-    var apiService: ApiServiceProtocol! {get set}
+    var serviceApi: ServiceApiProtocol! {get set}
 
     func searchProducts(query: String)
 }
