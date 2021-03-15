@@ -3,9 +3,10 @@ This a challenge for Meli using like platform iOS
 
 Utilizo arquitectura VIPER, para manejar unos de los principios solidos de Responsabilidad única y este patrón aplica Clean architecture
 Pasos para correr el proyecto:
-1. Pod install: para instalar la dependencia de HUB, para los loading de la app
-2. Puede correr en cualquier dispositivo
-3. Correr target de test
+1. hacer un git clone y hacer checkout a la siguiente rama: feature/MELI-001
+2. Pod install: para instalar la dependencia de HUB, para los loading de la app
+3. Puede correr en cualquier dispositivo
+4. Correr target de test
 
 <img width="362" alt="Screen Shot 2021-03-15 at 12 49 46 AM" src="https://user-images.githubusercontent.com/13486485/111110925-6afd3880-852b-11eb-9f9e-3194f4d53de1.png">
 
