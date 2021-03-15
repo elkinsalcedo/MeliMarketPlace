@@ -18,6 +18,11 @@
 		1932362D25FEE9A600A44096 /* ProductHomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932362C25FEE9A600A44096 /* ProductHomePresenterTests.swift */; };
 		1932363125FEEC5900A44096 /* MockProductHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193235AE25FDD6B800A44096 /* MockProductHomeInteractor.swift */; };
 		1932363525FEF02C00A44096 /* MockProductHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193235C125FDDDE700A44096 /* MockProductHomeRouter.swift */; };
+		1932373E25FF2BD300A44096 /* NetworkControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932373825FF2BD200A44096 /* NetworkControllerProtocol.swift */; };
+		1932373F25FF2BD300A44096 /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932373A25FF2BD200A44096 /* ConnectionHelper.swift */; };
+		1932374025FF2BD300A44096 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932373B25FF2BD200A44096 /* DataResponse.swift */; };
+		1932374125FF2BD300A44096 /* RemotingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932373C25FF2BD200A44096 /* RemotingConstants.swift */; };
+		1932374225FF2BD300A44096 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1932373D25FF2BD200A44096 /* NetworkController.swift */; };
 		197B4E5E25FC65550056C653 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197B4E5D25FC65550056C653 /* ProductItem.swift */; };
 		19E2E8BD25F71A4B00E90E57 /* ProductDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8A725F71A4B00E90E57 /* ProductDetailProtocol.swift */; };
 		19E2E8BF25F71A4B00E90E57 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E2E8A925F71A4B00E90E57 /* ProductDetailViewController.swift */; };
@@ -76,6 +81,11 @@
 		193235BD25FDDD9400A44096 /* MockProductHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProductHomeViewController.swift; sourceTree = "<group>"; };
 		193235C125FDDDE700A44096 /* MockProductHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProductHomeRouter.swift; sourceTree = "<group>"; };
 		1932362C25FEE9A600A44096 /* ProductHomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHomePresenterTests.swift; sourceTree = "<group>"; };
+		1932373825FF2BD200A44096 /* NetworkControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkControllerProtocol.swift; sourceTree = "<group>"; };
+		1932373A25FF2BD200A44096 /* ConnectionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
+		1932373B25FF2BD200A44096 /* DataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		1932373C25FF2BD200A44096 /* RemotingConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemotingConstants.swift; sourceTree = "<group>"; };
+		1932373D25FF2BD200A44096 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		197B4E5D25FC65550056C653 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 		19E2E8A725F71A4B00E90E57 /* ProductDetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailProtocol.swift; sourceTree = "<group>"; };
 		19E2E8A925F71A4B00E90E57 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
@@ -198,6 +208,34 @@
 				1932355225FDD06700A44096 /* NetworkControllerTests.swift */,
 			);
 			name = MarketPlaceNetwork;
+			sourceTree = "<group>";
+		};
+		1932373625FF2BD200A44096 /* MeliNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				1932373725FF2BD200A44096 /* Protocol */,
+				1932373925FF2BD200A44096 /* Core */,
+				1932373D25FF2BD200A44096 /* NetworkController.swift */,
+			);
+			path = MeliNetwork;
+			sourceTree = "<group>";
+		};
+		1932373725FF2BD200A44096 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1932373825FF2BD200A44096 /* NetworkControllerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1932373925FF2BD200A44096 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1932373A25FF2BD200A44096 /* ConnectionHelper.swift */,
+				1932373B25FF2BD200A44096 /* DataResponse.swift */,
+				1932373C25FF2BD200A44096 /* RemotingConstants.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		197B4E3C25FC56BC0056C653 /* Protocol */ = {
@@ -391,6 +429,7 @@
 		19E2E95F25F9B11B00E90E57 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1932373625FF2BD200A44096 /* MeliNetwork */,
 				19E2E8A425F71A4B00E90E57 /* ProductDetail */,
 				19E2E8AC25F71A4B00E90E57 /* ProductList */,
 				19E2E8B425F71A4B00E90E57 /* ProductHome */,
@@ -655,12 +694,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MeliMarketPlace_Example/Pods-MeliMarketPlace_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ACProgressHUD-Swift/ACProgressHUD_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/MeliMarketPlace/MeliMarketPlace.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACProgressHUD_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MeliMarketPlace.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -704,6 +741,8 @@
 				1932354B25FDCC0900A44096 /* MeliMarketPlaceLog.swift in Sources */,
 				19E2E8E825F7235500E90E57 /* ProductListRouter.swift in Sources */,
 				19E2E96325F9B60E00E90E57 /* MeliServiceApi.swift in Sources */,
+				1932374225FF2BD300A44096 /* NetworkController.swift in Sources */,
+				1932373F25FF2BD300A44096 /* ConnectionHelper.swift in Sources */,
 				19E2E99D25F9DB0A00E90E57 /* Product.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				19E2E96725F9B65300E90E57 /* ServiceApiProtocol.swift in Sources */,
@@ -711,7 +750,9 @@
 				19E2E8C225F71A4B00E90E57 /* ProductListProtocol.swift in Sources */,
 				19E2E96D25F9BB1400E90E57 /* Picture.swift in Sources */,
 				19E2E90525F7249600E90E57 /* AppConstant.swift in Sources */,
+				1932374025FF2BD300A44096 /* DataResponse.swift in Sources */,
 				19E2E8BD25F71A4B00E90E57 /* ProductDetailProtocol.swift in Sources */,
+				1932374125FF2BD300A44096 /* RemotingConstants.swift in Sources */,
 				19E2E8C725F71A4B00E90E57 /* ProductListInteractor.swift in Sources */,
 				19E2E8CD25F71A4B00E90E57 /* ProductHomeInteractor.swift in Sources */,
 				19E2E8C025F71A4B00E90E57 /* ProductDetailPresenter.swift in Sources */,
@@ -722,6 +763,7 @@
 				19FD67F525FCA57C0086800F /* ProductDetailInteractor.swift in Sources */,
 				193235D025FDDEC400A44096 /* MockProductHomeViewController.swift in Sources */,
 				19E2E8BF25F71A4B00E90E57 /* ProductDetailViewController.swift in Sources */,
+				1932373E25FF2BD300A44096 /* NetworkControllerProtocol.swift in Sources */,
 				19E2E90D25F724F100E90E57 /* Products.swift in Sources */,
 				1932354A25FDCC0900A44096 /* EnumHttpStatusCode.swift in Sources */,
 				19E2E8C525F71A4B00E90E57 /* ProductListViewController.swift in Sources */,

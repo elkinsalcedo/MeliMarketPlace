@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import MeliMarketPlace
+@testable import MeliMarketPlace_Example
 
 class NetworkControllerTests : XCTestCase {
     var network: NetworkController?

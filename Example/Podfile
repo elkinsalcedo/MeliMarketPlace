@@ -3,7 +3,6 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'MeliMarketPlace_Example' do
-  pod 'MeliMarketPlace', :path => '../'
   pod 'ACProgressHUD-Swift'
   
   target 'MeliMarketPlace_Tests' do

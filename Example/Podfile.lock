@@ -1,23 +1,16 @@
 PODS:
   - ACProgressHUD-Swift (1.4)
-  - MeliMarketPlace (0.1.0)
 
 DEPENDENCIES:
   - ACProgressHUD-Swift
-  - MeliMarketPlace (from `../`)
 
 SPEC REPOS:
   trunk:
     - ACProgressHUD-Swift
 
-EXTERNAL SOURCES:
-  MeliMarketPlace:
-    :path: "../"
-
 SPEC CHECKSUMS:
   ACProgressHUD-Swift: 52a40fe3377959cfe84316dc0cf523c5d790bbe8
-  MeliMarketPlace: 8083521bfb8ac465188fcd226f39de8f880cf5ed
 
-PODFILE CHECKSUM: 25d114d00dbcd2f91c94e016b935b2f7ef284630
+PODFILE CHECKSUM: a83ee26f774bf1f8dc3c8c87e04cecfb562527b3
 
 COCOAPODS: 1.10.0.rc.1

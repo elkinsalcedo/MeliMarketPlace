@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import MeliMarketPlace
 
 class MeliServiceApi: ServiceApiProtocol {
 
