@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		12BA31EFF88D094395561FC431912A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1E3A158325F4C24B6B7745DE81BD8C2E /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD0089E65B32736BBA2D99D9335E18 /* NetworkController.swift */; };
 		378F50E21CC2FC72B317C8B178276DFE /* ACHUD+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C9BBE9D612B1FB24DA6C6DE8E659A /* ACHUD+Animation.swift */; };
 		37AFF7D5104DC7C15C3DCEB4C3F4CAF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		434E780BC4D9F34F2EFAF69B0C354A1C /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ED51B6AC49D1926C71308C118DD635 /* ConnectionHelper.swift */; };
-		501FAF3987F4ECA6D841EE8E3697D696 /* MeliMarketPlace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 756AF0554FCE65D2A65C52CA282A31B6 /* MeliMarketPlace-dummy.m */; };
-		5856246442334D83E91486CF901B4E82 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E4C9785522C0FB41C082E31D7B2A54 /* DataResponse.swift */; };
+		434E780BC4D9F34F2EFAF69B0C354A1C /* ConnectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F095DDF22BBAE55277BFB20CC017237 /* ConnectionHelper.swift */; };
+		501FAF3987F4ECA6D841EE8E3697D696 /* MeliMarketPlace-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7890E523AAC9C367CE1A758C1D1F97 /* MeliMarketPlace-dummy.m */; };
+		5856246442334D83E91486CF901B4E82 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DCDC0C11883AB285EEB2A996C3717E /* DataResponse.swift */; };
 		69647BF66B20BDCCD2B353FCEB1EF8E8 /* Pods-MeliMarketPlace_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF2682897D56E8D6D9A7AC03B800595 /* Pods-MeliMarketPlace_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76CCA87485A6E6980A058FA23C06E9E4 /* Pods-MeliMarketPlace_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A097CAA1637CF33B3CCDE832DAE9C1F2 /* Pods-MeliMarketPlace_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0CA0045D67FD7751835A28A1592122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7E5701F09F3510E2E276A6401961F2DA /* RemotingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9064B9F0F8D193AA5840FF1983BE89EA /* RemotingConstants.swift */; };
+		7E5701F09F3510E2E276A6401961F2DA /* RemotingConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D529DBD7F6DBF0D4870346D1E70763 /* RemotingConstants.swift */; };
 		83AD033BB535B31A599BA09F43603D25 /* Pods-MeliMarketPlace_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E201DE21CB233A20219F6D3D06039A /* Pods-MeliMarketPlace_Example-dummy.m */; };
 		855DB163402D3960B7298C94A888D52F /* ACProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E183751184BFAA035E71581D035F974C /* ACProgressView.xib */; };
-		9C6CD51E9724E84952276F5EC6A9BD01 /* NetworkControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A01DA4CDA5BEFB4E716F1B4A79DF6 /* NetworkControllerProtocol.swift */; };
+		9C6CD51E9724E84952276F5EC6A9BD01 /* NetworkControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A8066746909C3F9D2C71ADFC13B5F2 /* NetworkControllerProtocol.swift */; };
 		A806170249C347EF00FC400F8F19AAC6 /* ACProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4218AB40AACF493ACFFBC1F3C1F49B /* ACProgressHUD.swift */; };
 		BDD6819CF7954B1C53B1270B8F5852BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C28765D844AD04E195F416602A10FAD4 /* ACProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACEDEC8A7B35891F3FE2341D6E27270 /* ACProgressView.swift */; };
 		CBE7200E2262CAB8962F0BDBF5DA1FA7 /* Pods-MeliMarketPlace_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0B667F67CB0CA79F83B95662865161 /* Pods-MeliMarketPlace_Tests-dummy.m */; };
+		D31AF31DD09B3C9E248389FD4F9EE538 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B3480806ADA21E5127157004A4E08C /* NetworkController.swift */; };
 		EE0EBA2273904E507679C3FFA16B8901 /* ACProgressHUD-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E156768F470FDD68CEFD06A6B9491842 /* ACProgressHUD-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE7DBB8E8B42D698B2CC94629F09E79B /* ACProgressHUD-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D72240EA29FD573DF63B50D20C3A4B /* ACProgressHUD-Swift-dummy.m */; };
-		FC85193C99C53A0A92C897459F641F07 /* MeliMarketPlace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F9F0757409F63267639F4FFD6FCF27 /* MeliMarketPlace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC85193C99C53A0A92C897459F641F07 /* MeliMarketPlace-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F5E8C94CBE807A0D503C6810803BA6 /* MeliMarketPlace-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,55 +55,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0010FAA816166B6D7E3A99131A7178B9 /* MeliMarketPlace.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MeliMarketPlace.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		05E68C1F1B3DC4777369C28EF8292D59 /* MeliMarketPlace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MeliMarketPlace-Info.plist"; sourceTree = "<group>"; };
-		09E4C9785522C0FB41C082E31D7B2A54 /* DataResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		03A8066746909C3F9D2C71ADFC13B5F2 /* NetworkControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkControllerProtocol.swift; sourceTree = "<group>"; };
+		066419E53A7A9935284B5B6B01C28712 /* MeliMarketPlace.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MeliMarketPlace.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0A33BCC462803005B1971612776307F5 /* Pods-MeliMarketPlace_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeliMarketPlace_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0B0B667F67CB0CA79F83B95662865161 /* Pods-MeliMarketPlace_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeliMarketPlace_Tests-dummy.m"; sourceTree = "<group>"; };
 		168FD258E1FE5CC7194AFA69F06347FC /* Pods-MeliMarketPlace_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MeliMarketPlace_Tests.modulemap"; sourceTree = "<group>"; };
-		1805C9FB61E75608283064D8CC3C42C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2D1C9BBE9D612B1FB24DA6C6DE8E659A /* ACHUD+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ACHUD+Animation.swift"; path = "Source/ACHUD+Animation.swift"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37F9F0757409F63267639F4FFD6FCF27 /* MeliMarketPlace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MeliMarketPlace-umbrella.h"; sourceTree = "<group>"; };
 		4248844A3E6738856042BFF6C3A77EA2 /* Pods-MeliMarketPlace_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeliMarketPlace_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		42CCA425D929FB0F148E41F0C3EE24BC /* Pods_MeliMarketPlace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeliMarketPlace_Example.framework; path = "Pods-MeliMarketPlace_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CCA425D929FB0F148E41F0C3EE24BC /* Pods_MeliMarketPlace_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliMarketPlace_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F1F41A4B58C8DAD7DA109280F72EC9 /* Pods-MeliMarketPlace_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeliMarketPlace_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		46DDF458790D6E3EE313EBA54A27A498 /* Pods-MeliMarketPlace_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeliMarketPlace_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4768E7B8D58B6A92F9371CAD6A271989 /* Pods-MeliMarketPlace_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeliMarketPlace_Tests-Info.plist"; sourceTree = "<group>"; };
-		498A01DA4CDA5BEFB4E716F1B4A79DF6 /* NetworkControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkControllerProtocol.swift; sourceTree = "<group>"; };
-		4D0E44DD42B856ABDF72D1CEADB13158 /* MeliMarketPlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MeliMarketPlace.debug.xcconfig; sourceTree = "<group>"; };
 		4D2A293F101BD828FDB78668F96B11AD /* Pods-MeliMarketPlace_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeliMarketPlace_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F095DDF22BBAE55277BFB20CC017237 /* ConnectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
+		546C0DDF27EFB8B9560EAEFB4C9233C5 /* MeliMarketPlace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MeliMarketPlace-prefix.pch"; sourceTree = "<group>"; };
 		59B0D20EBEBD16306A35D845B1BD2261 /* Pods-MeliMarketPlace_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeliMarketPlace_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		63ED51B6AC49D1926C71308C118DD635 /* ConnectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectionHelper.swift; sourceTree = "<group>"; };
-		64FE84412986009DE98A19058DD83BE4 /* MeliMarketPlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MeliMarketPlace.release.xcconfig; sourceTree = "<group>"; };
 		674F3751C31D7476C76FE72563011F61 /* ACProgressHUD-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ACProgressHUD-Swift.modulemap"; sourceTree = "<group>"; };
 		684E04EC088F781BF229C44105DD2C0F /* ACProgressHUD-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ACProgressHUD-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		6EF2682897D56E8D6D9A7AC03B800595 /* Pods-MeliMarketPlace_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeliMarketPlace_Tests-umbrella.h"; sourceTree = "<group>"; };
 		71D72240EA29FD573DF63B50D20C3A4B /* ACProgressHUD-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACProgressHUD-Swift-dummy.m"; sourceTree = "<group>"; };
-		756AF0554FCE65D2A65C52CA282A31B6 /* MeliMarketPlace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MeliMarketPlace-dummy.m"; sourceTree = "<group>"; };
+		7289C96F9E10E146FB3324E15E14FD8C /* MeliMarketPlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MeliMarketPlace.debug.xcconfig; sourceTree = "<group>"; };
+		75DCDC0C11883AB285EEB2A996C3717E /* DataResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
 		7786D474B5DE43AA4646AABE8243108D /* Pods-MeliMarketPlace_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MeliMarketPlace_Example.release.xcconfig"; sourceTree = "<group>"; };
-		783B3801A5F46B42E747DDDA30E5288A /* MeliMarketPlace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MeliMarketPlace.modulemap; sourceTree = "<group>"; };
 		7DA2A1369922BD974AFD99DD17FAF622 /* Pods-MeliMarketPlace_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MeliMarketPlace_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9064B9F0F8D193AA5840FF1983BE89EA /* RemotingConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemotingConstants.swift; sourceTree = "<group>"; };
+		910E616211E7483AC52EF6B895432FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		974E74A9E1F6823EC5B93BCDF93B239D /* MeliMarketPlace-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MeliMarketPlace-Info.plist"; sourceTree = "<group>"; };
 		9B22D504ED8637ABDB0FA42A65792C6A /* Pods-MeliMarketPlace_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MeliMarketPlace_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FFCF88EDA4E3570A0A7B5D1FEC820D3 /* ACProgressHUD-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ACProgressHUD-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		A097CAA1637CF33B3CCDE832DAE9C1F2 /* Pods-MeliMarketPlace_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MeliMarketPlace_Example-umbrella.h"; sourceTree = "<group>"; };
-		AE28FD3E1079DEC286D09520A321A024 /* MeliMarketPlace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MeliMarketPlace.framework; path = MeliMarketPlace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B3480806ADA21E5127157004A4E08C /* NetworkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = MeliMarketPlace/Classes/MeliMarketPlace/NetworkController.swift; sourceTree = "<group>"; };
+		A7D529DBD7F6DBF0D4870346D1E70763 /* RemotingConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemotingConstants.swift; sourceTree = "<group>"; };
+		AE28FD3E1079DEC286D09520A321A024 /* MeliMarketPlace.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MeliMarketPlace.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7890E523AAC9C367CE1A758C1D1F97 /* MeliMarketPlace-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MeliMarketPlace-dummy.m"; sourceTree = "<group>"; };
+		B4F5E8C94CBE807A0D503C6810803BA6 /* MeliMarketPlace-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MeliMarketPlace-umbrella.h"; sourceTree = "<group>"; };
+		BF9D25C16EFBC90D1FE71538BBC4C833 /* MeliMarketPlace.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MeliMarketPlace.modulemap; sourceTree = "<group>"; };
 		BFABF674DFAAB305A5339403EB338B72 /* Pods-MeliMarketPlace_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MeliMarketPlace_Example-Info.plist"; sourceTree = "<group>"; };
 		C8E201DE21CB233A20219F6D3D06039A /* Pods-MeliMarketPlace_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MeliMarketPlace_Example-dummy.m"; sourceTree = "<group>"; };
 		CACEDEC8A7B35891F3FE2341D6E27270 /* ACProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ACProgressView.swift; path = Source/ACProgressView.swift; sourceTree = "<group>"; };
 		D37C7AE6BC06DC0EFF47678C76406FF9 /* Pods-MeliMarketPlace_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MeliMarketPlace_Example.modulemap"; sourceTree = "<group>"; };
-		D78502D6BA86481410BB05F19C2A843A /* Pods_MeliMarketPlace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MeliMarketPlace_Tests.framework; path = "Pods-MeliMarketPlace_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D95AF7C116F790F56433095992AB610D /* ACProgressHUD_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACProgressHUD_Swift.framework; path = "ACProgressHUD-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D78502D6BA86481410BB05F19C2A843A /* Pods_MeliMarketPlace_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliMarketPlace_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95AF7C116F790F56433095992AB610D /* ACProgressHUD_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ACProgressHUD_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4218AB40AACF493ACFFBC1F3C1F49B /* ACProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ACProgressHUD.swift; path = Source/ACProgressHUD.swift; sourceTree = "<group>"; };
-		E04AB6C3547E2FCDAC9515134F23C367 /* MeliMarketPlace-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MeliMarketPlace-prefix.pch"; sourceTree = "<group>"; };
 		E156768F470FDD68CEFD06A6B9491842 /* ACProgressHUD-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACProgressHUD-Swift-umbrella.h"; sourceTree = "<group>"; };
 		E183751184BFAA035E71581D035F974C /* ACProgressView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ACProgressView.xib; path = Source/ACProgressView.xib; sourceTree = "<group>"; };
 		EB40860474A0943E5A14A7E18E2661CB /* ACProgressHUD-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ACProgressHUD-Swift-Info.plist"; sourceTree = "<group>"; };
-		EECD0089E65B32736BBA2D99D9335E18 /* NetworkController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkController.swift; path = MeliMarketPlace/Classes/MarketPlaceRemote/NetworkController.swift; sourceTree = "<group>"; };
-		F0B5E597C8AD0138BC1034277F94C73D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F030B62C6727ADF164616CB87C0BC990 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F43ABCC84914967C0C819FA70E76B3F4 /* ACProgressHUD-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACProgressHUD-Swift-prefix.pch"; sourceTree = "<group>"; };
+		F92C3FDC8DDB3CF491BDCC1AD7C11D03 /* MeliMarketPlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MeliMarketPlace.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,36 +151,7 @@
 				2D48F5392ABDF22C1EC5DF678FA60B9B /* Resources */,
 				EF8B0F9075660968322B97B120FD7701 /* Support Files */,
 			);
-			name = "ACProgressHUD-Swift";
 			path = "ACProgressHUD-Swift";
-			sourceTree = "<group>";
-		};
-		1A14C30DD1E1941BCA2F468E402060E7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				783B3801A5F46B42E747DDDA30E5288A /* MeliMarketPlace.modulemap */,
-				756AF0554FCE65D2A65C52CA282A31B6 /* MeliMarketPlace-dummy.m */,
-				05E68C1F1B3DC4777369C28EF8292D59 /* MeliMarketPlace-Info.plist */,
-				E04AB6C3547E2FCDAC9515134F23C367 /* MeliMarketPlace-prefix.pch */,
-				37F9F0757409F63267639F4FFD6FCF27 /* MeliMarketPlace-umbrella.h */,
-				4D0E44DD42B856ABDF72D1CEADB13158 /* MeliMarketPlace.debug.xcconfig */,
-				64FE84412986009DE98A19058DD83BE4 /* MeliMarketPlace.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MeliMarketPlace";
-			sourceTree = "<group>";
-		};
-		1CF9C09B7F8BB719EA97E4C2A00DBB26 /* MeliMarketPlace */ = {
-			isa = PBXGroup;
-			children = (
-				EECD0089E65B32736BBA2D99D9335E18 /* NetworkController.swift */,
-				8AC962AE55CAA723FD58DEFAA970F2A2 /* Core */,
-				3A690378779445BF79455B02C4FC9261 /* Pod */,
-				A1CF7854798943622C40A962E8F678BC /* Protocol */,
-				1A14C30DD1E1941BCA2F468E402060E7 /* Support Files */,
-			);
-			name = MeliMarketPlace;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		2D48F5392ABDF22C1EC5DF678FA60B9B /* Resources */ = {
@@ -191,25 +162,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		3A690378779445BF79455B02C4FC9261 /* Pod */ = {
+		5394BC04419E14056EA46BC940AD2EE3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				F0B5E597C8AD0138BC1034277F94C73D /* LICENSE */,
-				0010FAA816166B6D7E3A99131A7178B9 /* MeliMarketPlace.podspec */,
-				1805C9FB61E75608283064D8CC3C42C4 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8AC962AE55CAA723FD58DEFAA970F2A2 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				63ED51B6AC49D1926C71308C118DD635 /* ConnectionHelper.swift */,
-				09E4C9785522C0FB41C082E31D7B2A54 /* DataResponse.swift */,
-				9064B9F0F8D193AA5840FF1983BE89EA /* RemotingConstants.swift */,
+				4F095DDF22BBAE55277BFB20CC017237 /* ConnectionHelper.swift */,
+				75DCDC0C11883AB285EEB2A996C3717E /* DataResponse.swift */,
+				A7D529DBD7F6DBF0D4870346D1E70763 /* RemotingConstants.swift */,
 			);
 			name = Core;
-			path = MeliMarketPlace/Classes/MarketPlaceRemote/Core;
+			path = MeliMarketPlace/Classes/MeliMarketPlace/Core;
 			sourceTree = "<group>";
 		};
 		8D42BF0CD9B0F9030DFDCFEF96B3C7B5 /* Products */ = {
@@ -221,15 +182,6 @@
 				D78502D6BA86481410BB05F19C2A843A /* Pods_MeliMarketPlace_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A1CF7854798943622C40A962E8F678BC /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				498A01DA4CDA5BEFB4E716F1B4A79DF6 /* NetworkControllerProtocol.swift */,
-			);
-			name = Protocol;
-			path = MeliMarketPlace/Classes/MarketPlaceRemote/Protocol;
 			sourceTree = "<group>";
 		};
 		A8A6FFD78E23F45F4A9C75D51ECEB657 /* Pods-MeliMarketPlace_Tests */ = {
@@ -251,7 +203,7 @@
 		BFC14E60CF77B1B1C135132FB22031EA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1CF9C09B7F8BB719EA97E4C2A00DBB26 /* MeliMarketPlace */,
+				FC7D6D9DA222EC9A886AB93ACF66B39D /* MeliMarketPlace */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -262,6 +214,21 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C62530B32D4CF8849A455A2552BFE713 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9D25C16EFBC90D1FE71538BBC4C833 /* MeliMarketPlace.modulemap */,
+				AE7890E523AAC9C367CE1A758C1D1F97 /* MeliMarketPlace-dummy.m */,
+				974E74A9E1F6823EC5B93BCDF93B239D /* MeliMarketPlace-Info.plist */,
+				546C0DDF27EFB8B9560EAEFB4C9233C5 /* MeliMarketPlace-prefix.pch */,
+				B4F5E8C94CBE807A0D503C6810803BA6 /* MeliMarketPlace-umbrella.h */,
+				7289C96F9E10E146FB3324E15E14FD8C /* MeliMarketPlace.debug.xcconfig */,
+				F92C3FDC8DDB3CF491BDCC1AD7C11D03 /* MeliMarketPlace.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MeliMarketPlace";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -282,6 +249,16 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D27F80933330EAB326EA988CC85884 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F030B62C6727ADF164616CB87C0BC990 /* LICENSE */,
+				066419E53A7A9935284B5B6B01C28712 /* MeliMarketPlace.podspec */,
+				910E616211E7483AC52EF6B895432FE4 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E4B7C50518FAFA1C1DC93C5B573F742B /* Pods */ = {
@@ -331,6 +308,28 @@
 			);
 			name = "Pods-MeliMarketPlace_Example";
 			path = "Target Support Files/Pods-MeliMarketPlace_Example";
+			sourceTree = "<group>";
+		};
+		FC7D6D9DA222EC9A886AB93ACF66B39D /* MeliMarketPlace */ = {
+			isa = PBXGroup;
+			children = (
+				A0B3480806ADA21E5127157004A4E08C /* NetworkController.swift */,
+				5394BC04419E14056EA46BC940AD2EE3 /* Core */,
+				E1D27F80933330EAB326EA988CC85884 /* Pod */,
+				FE27F93836C0F5C6E4AE1E02095968D3 /* Protocol */,
+				C62530B32D4CF8849A455A2552BFE713 /* Support Files */,
+			);
+			name = MeliMarketPlace;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE27F93836C0F5C6E4AE1E02095968D3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				03A8066746909C3F9D2C71ADFC13B5F2 /* NetworkControllerProtocol.swift */,
+			);
+			name = Protocol;
+			path = MeliMarketPlace/Classes/MeliMarketPlace/Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,7 +515,7 @@
 				434E780BC4D9F34F2EFAF69B0C354A1C /* ConnectionHelper.swift in Sources */,
 				5856246442334D83E91486CF901B4E82 /* DataResponse.swift in Sources */,
 				501FAF3987F4ECA6D841EE8E3697D696 /* MeliMarketPlace-dummy.m in Sources */,
-				1E3A158325F4C24B6B7745DE81BD8C2E /* NetworkController.swift in Sources */,
+				D31AF31DD09B3C9E248389FD4F9EE538 /* NetworkController.swift in Sources */,
 				9C6CD51E9724E84952276F5EC6A9BD01 /* NetworkControllerProtocol.swift in Sources */,
 				7E5701F09F3510E2E276A6401961F2DA /* RemotingConstants.swift in Sources */,
 			);
@@ -738,8 +737,9 @@
 		};
 		950804762806144064B5EE7608EEC2CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64FE84412986009DE98A19058DD83BE4 /* MeliMarketPlace.release.xcconfig */;
+			baseConfigurationReference = F92C3FDC8DDB3CF491BDCC1AD7C11D03 /* MeliMarketPlace.release.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -770,8 +770,9 @@
 		};
 		95C73177ECFB029E827FFD20FC7FCCCC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D0E44DD42B856ABDF72D1CEADB13158 /* MeliMarketPlace.debug.xcconfig */;
+			baseConfigurationReference = 7289C96F9E10E146FB3324E15E14FD8C /* MeliMarketPlace.debug.xcconfig */;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -853,8 +854,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
